@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Image Gallery</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="gallery-container">
+        <h1>Image Gallery</h1>
+        <div class="gallery-grid" id="gallery">
+            <!-- Replace src with your image links -->
+            <img src="/Task-1/images/istockphoto-517188688-612x612.jpg" alt="Nature" class="gallery-item">
+            <img src="/Task-1/images/blue-background-with-grid-that-says-blue_1045163-16644.avif" alt="Tech" class="gallery-item">
+            <img src="/Task-1/images/istockphoto-1063723682-612x612.jpg" alt="Architecture" class="gallery-item">
+        </div>
+    </div>
+
+    <!-- Lightbox -->
+    <div id="lightbox" class="lightbox">
+        <span class="close">&times;</span>
+        <button class="prev">&#10094;</button>
+        <img class="lightbox-content" id="lightbox-img">
+        <button class="next">&#10095;</button>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
